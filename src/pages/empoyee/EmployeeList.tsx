@@ -22,7 +22,7 @@ import { removeEmployee, searchEmployees } from "./EmployeeApi";
 
 const EmployeeList: React.FC = () => {
   const { name } = useParams<{ name: string }>();
-  const [clientes, setClientes] = useState<Employee[]>([]);
+  const [empleados, setClientes] = useState<Employee[]>([]);
   const history = useHistory();
 
   useEffect(() => {
@@ -90,15 +90,15 @@ const EmployeeList: React.FC = () => {
               <IonCol>Acciones</IonCol>
             </IonRow>
 
-            {clientes.map((cliente: Employee) => (
-              <IonRow>
-                <IonCol>{cliente.firstName + " " + cliente.lastName}</IonCol>
-                <IonCol>{cliente.email}</IonCol>
-                <IonCol>{cliente.phone}</IonCol>
-                <IonCol>{cliente.address}</IonCol>
+            {empleados.map((empleado: Employee) => (
+              <IonRow key={empleado.id}>
+                <IonCol>{empleado.firstName + " " + empleado.lastName}</IonCol>
+                <IonCol>{empleado.email}</IonCol>
+                <IonCol>{empleado.phone}</IonCol>
+                <IonCol>{empleado.address}</IonCol>
                 <IonCol>
                   <IonButton
-                    onClick={() => editEmployee(String(cliente.id))}
+                    onClick={() => editEmployee(String(empleado.id))}
                     color="primary"
                     fill="clear"
                   >
@@ -108,7 +108,7 @@ const EmployeeList: React.FC = () => {
                   <IonButton
                     color="danger"
                     fill="clear"
-                    onClick={() => remove(String(cliente.id))}
+                    onClick={() => remove(String(empleado.id))}
                   >
                     <IonIcon icon={close} slot="icon-only" />
                   </IonButton>

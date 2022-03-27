@@ -22,7 +22,7 @@ import { removeVendor, searchVendors } from "./VendorApi";
 
 const VendorList: React.FC = () => {
   const { name } = useParams<{ name: string }>();
-  const [clientes, setClientes] = useState<Vendor[]>([]);
+  const [proveedors, setClientes] = useState<Vendor[]>([]);
   const history = useHistory();
 
   useEffect(() => {
@@ -90,15 +90,17 @@ const VendorList: React.FC = () => {
               <IonCol>Acciones</IonCol>
             </IonRow>
 
-            {clientes.map((cliente: Vendor) => (
-              <IonRow>
-                <IonCol>{cliente.firstName + " " + cliente.lastName}</IonCol>
-                <IonCol>{cliente.email}</IonCol>
-                <IonCol>{cliente.phone}</IonCol>
-                <IonCol>{cliente.address}</IonCol>
+            {proveedors.map((proveedor: Vendor) => (
+              <IonRow key={proveedor.id}>
+                <IonCol>
+                  {proveedor.firstName + " " + proveedor.lastName}
+                </IonCol>
+                <IonCol>{proveedor.email}</IonCol>
+                <IonCol>{proveedor.phone}</IonCol>
+                <IonCol>{proveedor.address}</IonCol>
                 <IonCol>
                   <IonButton
-                    onClick={() => editVendor(String(cliente.id))}
+                    onClick={() => editVendor(String(proveedor.id))}
                     color="primary"
                     fill="clear"
                   >
@@ -108,7 +110,7 @@ const VendorList: React.FC = () => {
                   <IonButton
                     color="danger"
                     fill="clear"
-                    onClick={() => remove(String(cliente.id))}
+                    onClick={() => remove(String(proveedor.id))}
                   >
                     <IonIcon icon={close} slot="icon-only" />
                   </IonButton>
