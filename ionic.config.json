@@ -1,0 +1,7 @@
+{
+  "name": "curso-react-java",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
