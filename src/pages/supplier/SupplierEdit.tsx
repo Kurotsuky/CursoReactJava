@@ -19,12 +19,12 @@ import {
 import { checkmark } from "ionicons/icons";
 import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router";
-import Vendor from "./Vendor";
-import { saveVendor, searchVendorById } from "./VendorApi";
+import Supplier from "./Supplier";
+import { saveSupplier, searchSupplierById } from "./SupplierApi";
 
-const VendorEdit: React.FC = () => {
+const SupplierEdit: React.FC = () => {
   const { name, id } = useParams<{ name: string; id: string }>();
-  const [vendor, setVendor] = useState<Vendor>({});
+  const [supplier, setSupplier] = useState<Supplier>({});
   const history = useHistory();
 
   useEffect(() => {
@@ -36,13 +36,13 @@ const VendorEdit: React.FC = () => {
       return;
     }
 
-    let result = searchVendorById(id);
-    setVendor(result);
+    let result = searchSupplierById(id);
+    setSupplier(result);
   };
 
   const save = () => {
-    saveVendor(vendor);
-    history.push("/page/vendors");
+    saveSupplier(supplier);
+    history.push("/page/suppliers");
   };
 
   return (
@@ -73,22 +73,20 @@ const VendorEdit: React.FC = () => {
               <IonItem>
                 <IonLabel position="stacked">Nombre</IonLabel>
                 <IonInput
-                  onIonChange={(e) =>
-                    (vendor.firstName = String(e.detail.value))
-                  }
-                  value={vendor.firstName}
+                  onIonChange={(e) => (supplier.name = String(e.detail.value))}
+                  value={supplier.name}
                 ></IonInput>
               </IonItem>
             </IonCol>
 
             <IonCol>
               <IonItem>
-                <IonLabel position="stacked">Apellido</IonLabel>
+                <IonLabel position="stacked">Contacto</IonLabel>
                 <IonInput
                   onIonChange={(e) =>
-                    (vendor.lastName = String(e.detail.value))
+                    (supplier.contact = String(e.detail.value))
                   }
-                  value={vendor.lastName}
+                  value={supplier.contact}
                 ></IonInput>
               </IonItem>
             </IonCol>
@@ -99,8 +97,8 @@ const VendorEdit: React.FC = () => {
               <IonItem>
                 <IonLabel position="stacked">Email</IonLabel>
                 <IonInput
-                  onIonChange={(e) => (vendor.email = String(e.detail.value))}
-                  value={vendor.email}
+                  onIonChange={(e) => (supplier.email = String(e.detail.value))}
+                  value={supplier.email}
                 ></IonInput>
               </IonItem>
             </IonCol>
@@ -109,8 +107,10 @@ const VendorEdit: React.FC = () => {
               <IonItem>
                 <IonLabel position="stacked">Dirección</IonLabel>
                 <IonInput
-                  onIonChange={(e) => (vendor.address = String(e.detail.value))}
-                  value={vendor.address}
+                  onIonChange={(e) =>
+                    (supplier.address = String(e.detail.value))
+                  }
+                  value={supplier.address}
                 ></IonInput>
               </IonItem>
             </IonCol>
@@ -121,13 +121,21 @@ const VendorEdit: React.FC = () => {
               <IonItem>
                 <IonLabel position="stacked">Telefono</IonLabel>
                 <IonInput
-                  onIonChange={(e) => (vendor.phone = String(e.detail.value))}
-                  value={vendor.phone}
+                  onIonChange={(e) => (supplier.phone = String(e.detail.value))}
+                  value={supplier.phone}
                 ></IonInput>
               </IonItem>
             </IonCol>
 
-            <IonCol></IonCol>
+            <IonCol>
+              <IonItem>
+                <IonLabel position="stacked">Telefono</IonLabel>
+                <IonInput
+                  onIonChange={(e) => (supplier.web = String(e.detail.value))}
+                  value={supplier.web}
+                ></IonInput>
+              </IonItem>
+            </IonCol>
           </IonRow>
 
           <IonItem>
@@ -148,4 +156,4 @@ const VendorEdit: React.FC = () => {
   );
 };
 
-export default VendorEdit;
+export default SupplierEdit;
