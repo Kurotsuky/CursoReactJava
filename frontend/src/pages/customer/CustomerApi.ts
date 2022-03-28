@@ -1,22 +1,23 @@
 import Customer from "./Customer";
 
-export function searchCustomers() {
-  if (!localStorage["customers"]) {
-    localStorage["customers"] = "[]";
-  }
+export async function searchCustomers() {
+  let response = await fetch("/api/customers", {
+    method: "GET",
+    headers: {
+      "Content-Type": "Application/json",
+    },
+  });
 
-  let customers = localStorage["customers"];
-  customers = JSON.parse(customers);
-  return customers;
+  return await response.json();
 }
 
-export function searchCustomerById(id: string) {
-  let customers = searchCustomers();
+export async function searchCustomerById(id: string) {
+  let customers = await searchCustomers();
   return customers.find((customer: Customer) => String(customer.id) === id);
 }
 
-export function removeCustomer(id: string) {
-  let customers = searchCustomers();
+export async function removeCustomer(id: string) {
+  let customers = await searchCustomers();
 
   let indice = customers.findIndex(
     (customer: Customer) => String(customer.id) === id
@@ -25,8 +26,8 @@ export function removeCustomer(id: string) {
   localStorage["customers"] = JSON.stringify(customers);
 }
 
-export function saveCustomer(customer: Customer) {
-  let customers = searchCustomers();
+export async function saveCustomer(customer: Customer) {
+  let customers = await searchCustomers();
 
   if (customer.id) {
     let indice = customers.findIndex(

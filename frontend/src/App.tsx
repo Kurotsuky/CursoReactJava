@@ -30,8 +30,8 @@ import CustomerList from "./pages/customer/CustomerList";
 import CustomerEdit from "./pages/customer/CustomerEdit";
 import EmployeeList from "./pages/empoyee/EmployeeList";
 import EmployeeEdit from "./pages/empoyee/EmployeeEdit";
-import VendorList from "./pages/vendor/VendorList";
-import VendorEdit from "./pages/vendor/VendorEdit";
+import VendorList from "./pages/supplier/SupplierList";
+import VendorEdit from "./pages/supplier/SupplierEdit";
 
 setupIonicReact();
 
