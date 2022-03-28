@@ -29,13 +29,13 @@ const SupplierList: React.FC = () => {
     search();
   }, [history.location.pathname]);
 
-  const search = () => {
-    let result = searchSuppliers();
+  const search = async () => {
+    let result = await searchSuppliers();
     setClientes(result);
   };
 
-  const remove = (id: string) => {
-    removeSupplier(id);
+  const remove = async (id: string) => {
+    await removeSupplier(id);
     search();
   };
 

@@ -31,17 +31,17 @@ const CustomerEdit: React.FC = () => {
     search();
   }, [id]);
 
-  const search = () => {
+  const search = async () => {
     if (id === "new") {
-      return;
+      setCustomer({});
     }
 
-    let result = searchCustomerById(id);
+    let result = await searchCustomerById(id);
     setCustomer(result);
   };
 
-  const save = () => {
-    saveCustomer(customer);
+  const save = async () => {
+    await saveCustomer(customer);
     history.push("/page/customers");
   };
 
@@ -74,9 +74,9 @@ const CustomerEdit: React.FC = () => {
                 <IonLabel position="stacked">Nombre</IonLabel>
                 <IonInput
                   onIonChange={(e) =>
-                    (customer.firstName = String(e.detail.value))
+                    (customer.firstname = String(e.detail.value))
                   }
-                  value={customer.firstName}
+                  value={customer.firstname}
                 ></IonInput>
               </IonItem>
             </IonCol>
@@ -86,9 +86,9 @@ const CustomerEdit: React.FC = () => {
                 <IonLabel position="stacked">Apellido</IonLabel>
                 <IonInput
                   onIonChange={(e) =>
-                    (customer.lastName = String(e.detail.value))
+                    (customer.lastname = String(e.detail.value))
                   }
-                  value={customer.lastName}
+                  value={customer.lastname}
                 ></IonInput>
               </IonItem>
             </IonCol>

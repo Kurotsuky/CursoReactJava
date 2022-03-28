@@ -31,17 +31,17 @@ const SupplierEdit: React.FC = () => {
     search();
   }, [id]);
 
-  const search = () => {
+  const search = async () => {
     if (id === "new") {
-      return;
+      setSupplier({});
     }
 
-    let result = searchSupplierById(id);
+    let result = await searchSupplierById(id);
     setSupplier(result);
   };
 
-  const save = () => {
-    saveSupplier(supplier);
+  const save = async () => {
+    await saveSupplier(supplier);
     history.push("/page/suppliers");
   };
 
@@ -129,7 +129,7 @@ const SupplierEdit: React.FC = () => {
 
             <IonCol>
               <IonItem>
-                <IonLabel position="stacked">Telefono</IonLabel>
+                <IonLabel position="stacked">Web</IonLabel>
                 <IonInput
                   onIonChange={(e) => (supplier.web = String(e.detail.value))}
                   value={supplier.web}

@@ -31,17 +31,17 @@ const EmployeeEdit: React.FC = () => {
     search();
   }, [id]);
 
-  const search = () => {
+  const search = async () => {
     if (id === "new") {
-      return;
+      setEmployee({});
     }
 
-    let result = searchEmployeeById(id);
+    let result = await searchEmployeeById(id);
     setEmployee(result);
   };
 
-  const save = () => {
-    saveEmployee(employee);
+  const save = async () => {
+    await saveEmployee(employee);
     history.push("/page/employees");
   };
 
@@ -74,9 +74,9 @@ const EmployeeEdit: React.FC = () => {
                 <IonLabel position="stacked">Nombre</IonLabel>
                 <IonInput
                   onIonChange={(e) =>
-                    (employee.firstName = String(e.detail.value))
+                    (employee.firstname = String(e.detail.value))
                   }
-                  value={employee.firstName}
+                  value={employee.firstname}
                 ></IonInput>
               </IonItem>
             </IonCol>
@@ -86,9 +86,9 @@ const EmployeeEdit: React.FC = () => {
                 <IonLabel position="stacked">Apellido</IonLabel>
                 <IonInput
                   onIonChange={(e) =>
-                    (employee.lastName = String(e.detail.value))
+                    (employee.lastname = String(e.detail.value))
                   }
-                  value={employee.lastName}
+                  value={employee.lastname}
                 ></IonInput>
               </IonItem>
             </IonCol>
