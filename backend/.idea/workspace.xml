@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec9f699e-bd3f-457a-8c5a-a3625ef6783b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/Springboot2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/config/CORSFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/controllers/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/controllers/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/controllers/SupplierController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/entities/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/entities/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/entities/Supplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/repository/SupplierRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/services/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/services/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/services/IEmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/services/ISupplierService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/springboot2/services/SupplierService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/icon/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/service-worker.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.06ca6f0a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.06ca6f0a.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1065.4b903190.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1065.4b903190.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1186.0b39de13.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1186.0b39de13.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1192.31107e6a.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1192.31107e6a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1262.3aec7225.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1262.3aec7225.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1262.3aec7225.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/13.617e5a9d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/13.617e5a9d.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/13.617e5a9d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1325.9e39bf43.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1325.9e39bf43.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1609.547b9183.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1609.547b9183.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1609.547b9183.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1665.b21db030.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1665.b21db030.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1665.b21db030.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1730.ee072580.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1730.ee072580.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1730.ee072580.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1985.f010f420.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1985.f010f420.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/1985.f010f420.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2127.cb520c25.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2127.cb520c25.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2127.cb520c25.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/23.dc354a31.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/23.dc354a31.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2346.dcacc04c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2346.dcacc04c.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2346.dcacc04c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2386.f0c391fe.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2386.f0c391fe.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2386.f0c391fe.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2682.1a5301a0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2682.1a5301a0.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2682.1a5301a0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2782.0b688cbe.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2782.0b688cbe.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2782.0b688cbe.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2937.9c71f305.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2937.9c71f305.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2992.0b735a5b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/2992.0b735a5b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3107.009124c9.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3107.009124c9.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3107.009124c9.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3127.0c107795.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3127.0c107795.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3127.0c107795.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3131.4e1ebc7b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3131.4e1ebc7b.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3131.4e1ebc7b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/321.8f9d08e3.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/321.8f9d08e3.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/321.8f9d08e3.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3214.1c6a94cd.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3214.1c6a94cd.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3214.1c6a94cd.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3305.b553fe8c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3305.b553fe8c.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3305.b553fe8c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3482.8f7f6dfa.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3482.8f7f6dfa.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3482.8f7f6dfa.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3630.693f05d4.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3630.693f05d4.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3630.693f05d4.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3733.f5612b65.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3733.f5612b65.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3733.f5612b65.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3831.8e072f70.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3831.8e072f70.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3831.8e072f70.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3839.71456e3a.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3839.71456e3a.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3839.71456e3a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3848.f9efd88f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3848.f9efd88f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3848.f9efd88f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3888.2a557362.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3888.2a557362.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3888.2a557362.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3954.8fb89424.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3954.8fb89424.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/3954.8fb89424.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4369.0bbccc5d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4369.0bbccc5d.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4369.0bbccc5d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4377.5fa8e5e0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4377.5fa8e5e0.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4377.5fa8e5e0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/439.bd1e675b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/439.bd1e675b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4478.11b04106.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4478.11b04106.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4478.11b04106.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4525.3e26b61e.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4525.3e26b61e.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4634.7cc26ad6.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4634.7cc26ad6.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4634.7cc26ad6.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4638.4a01d34f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4638.4a01d34f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4638.4a01d34f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4662.c270797b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4662.c270797b.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4662.c270797b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/471.a27ffca4.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/471.a27ffca4.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4873.7041bdef.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4873.7041bdef.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4873.7041bdef.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4917.7230ab09.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4917.7230ab09.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/4917.7230ab09.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5022.d27aaad8.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5022.d27aaad8.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5215.02745d99.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5215.02745d99.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5215.02745d99.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5716.ee7968bd.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5716.ee7968bd.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5716.ee7968bd.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5726.1fe4495b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5726.1fe4495b.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5726.1fe4495b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5856.6d29d4b2.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/5856.6d29d4b2.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6066.9ca99680.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6066.9ca99680.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6066.9ca99680.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6106.d887c80d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6106.d887c80d.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6106.d887c80d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6129.950df12b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6129.950df12b.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6129.950df12b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6181.29f8df2f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6181.29f8df2f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6181.29f8df2f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6851.2db5938f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6851.2db5938f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6851.2db5938f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6893.ba1b3574.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6893.ba1b3574.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6893.ba1b3574.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6906.497df285.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6906.497df285.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/6906.497df285.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7220.3ce28804.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7220.3ce28804.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7315.632fdf4d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7315.632fdf4d.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7315.632fdf4d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7368.b593b970.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7368.b593b970.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7368.b593b970.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7372.354face8.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7372.354face8.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/738.9a451180.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/738.9a451180.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/738.9a451180.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7397.04cb65ed.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7397.04cb65ed.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7397.04cb65ed.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7422.c1dc9340.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7422.c1dc9340.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/7422.c1dc9340.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/8720.490d344d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/8720.490d344d.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/8841.dad7f840.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/8841.dad7f840.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/8855.49f87025.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/8855.49f87025.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/8855.49f87025.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9.ee3ff883.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9.ee3ff883.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9.ee3ff883.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9295.a9b528e9.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9295.a9b528e9.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9377.cab6f75b.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9377.cab6f75b.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9381.caad1d7e.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9381.caad1d7e.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9381.caad1d7e.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9397.9f08812c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9397.9f08812c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9624.91d7537f.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9624.91d7537f.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9624.91d7537f.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9678.c6e0f3a4.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9678.c6e0f3a4.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9691.39a3336e.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9691.39a3336e.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9691.39a3336e.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9773.9147a5a1.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9773.9147a5a1.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9850.f0fb3c9e.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9850.f0fb3c9e.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9850.f0fb3c9e.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9988.482926c1.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9988.482926c1.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/9988.482926c1.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.003ee747.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.003ee747.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.003ee747.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/springboot2/Springboot2ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="270yKBX7wouBb3P2JEP8nsYzr3d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webapp-service" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec9f699e-bd3f-457a-8c5a-a3625ef6783b" name="Changes" comment="" />
+      <created>1648471233244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648471233244</updated>
+    </task>
+    <servers />
+  </component>
+</project>

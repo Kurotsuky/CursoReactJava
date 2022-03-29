@@ -40,11 +40,11 @@ const SupplierList: React.FC = () => {
   };
 
   const addSupplier = () => {
-    history.push("/page/supplier/new");
+    history.push("/page/suppliers/new");
   };
 
   const editSupplier = (id: string) => {
-    history.push("/page/supplier/" + id);
+    history.push("/page/suppliers/" + id);
   };
 
   return (

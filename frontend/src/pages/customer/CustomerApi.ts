@@ -13,7 +13,7 @@ export async function searchCustomers() {
 }
 
 export async function searchCustomerById(id: string) {
-  let url = process.env.REACT_APP_API + "customer/" + id;
+  let url = process.env.REACT_APP_API + "customers/" + id;
   let response = await fetch(url, {
     method: "GET",
     headers: {
@@ -25,7 +25,7 @@ export async function searchCustomerById(id: string) {
 }
 
 export async function removeCustomer(id: string) {
-  let url = process.env.REACT_APP_API + "customer/" + id;
+  let url = process.env.REACT_APP_API + "customers/" + id;
   await fetch(url, {
     method: "DELETE",
     headers: {

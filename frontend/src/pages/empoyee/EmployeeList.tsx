@@ -40,11 +40,11 @@ const EmployeeList: React.FC = () => {
   };
 
   const addEmployee = () => {
-    history.push("/page/employee/new");
+    history.push("/page/employees/new");
   };
 
   const editEmployee = (id: string) => {
-    history.push("/page/employee/" + id);
+    history.push("/page/employees/" + id);
   };
 
   return (

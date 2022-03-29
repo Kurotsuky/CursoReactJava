@@ -13,7 +13,7 @@ export async function searchEmployees() {
 }
 
 export async function searchEmployeeById(id: string) {
-  let url = process.env.REACT_APP_API + "employee/" + id;
+  let url = process.env.REACT_APP_API + "employees/" + id;
   let response = await fetch(url, {
     method: "GET",
     headers: {
@@ -25,7 +25,7 @@ export async function searchEmployeeById(id: string) {
 }
 
 export async function removeEmployee(id: string) {
-  let url = process.env.REACT_APP_API + "employee/" + id;
+  let url = process.env.REACT_APP_API + "employees/" + id;
   await fetch(url, {
     method: "DELETE",
     headers: {

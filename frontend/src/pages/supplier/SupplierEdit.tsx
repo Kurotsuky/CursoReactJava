@@ -34,6 +34,7 @@ const SupplierEdit: React.FC = () => {
   const search = async () => {
     if (id === "new") {
       setSupplier({});
+      return;
     }
 
     let result = await searchSupplierById(id);

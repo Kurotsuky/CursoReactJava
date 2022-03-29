@@ -34,6 +34,7 @@ const EmployeeEdit: React.FC = () => {
   const search = async () => {
     if (id === "new") {
       setEmployee({});
+      return;
     }
 
     let result = await searchEmployeeById(id);

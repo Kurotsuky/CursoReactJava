@@ -1,17 +1,17 @@
 import {
   IonContent,
   IonIcon,
+  IonImg,
   IonItem,
   IonLabel,
   IonList,
   IonListHeader,
   IonMenu,
   IonMenuToggle,
-  IonNote,
 } from "@ionic/react";
 
 import { useLocation } from "react-router-dom";
-import { bookmarkOutline, people, peopleOutline } from "ionicons/icons";
+import { people, peopleOutline } from "ionicons/icons";
 import "./Menu.css";
 
 interface AppPage {
@@ -42,8 +42,6 @@ const appPages: AppPage[] = [
   },
 ];
 
-const labels = ["Family", "Friends", "Notes", "Work", "Travel", "Reminders"];
-
 const Menu: React.FC = () => {
   const location = useLocation();
 
@@ -51,8 +49,9 @@ const Menu: React.FC = () => {
     <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="inbox-list">
-          <IonListHeader>Inbox</IonListHeader>
-          <IonNote>hi@ionicframework.com</IonNote>
+          <IonListHeader>
+            <IonImg src="assets/images/logo.png" />
+          </IonListHeader>
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>
@@ -75,16 +74,6 @@ const Menu: React.FC = () => {
               </IonMenuToggle>
             );
           })}
-        </IonList>
-
-        <IonList id="labels-list">
-          <IonListHeader>Labels</IonListHeader>
-          {labels.map((label, index) => (
-            <IonItem lines="none" key={index}>
-              <IonIcon slot="start" icon={bookmarkOutline} />
-              <IonLabel>{label}</IonLabel>
-            </IonItem>
-          ))}
         </IonList>
       </IonContent>
     </IonMenu>

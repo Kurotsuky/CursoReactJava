@@ -76,6 +76,11 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-tint: #f5f6f9;
 }
 
+ion-img {
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
 ion-title {
   padding-top: 0.6rem;
   padding-bottom: 0.4rem;

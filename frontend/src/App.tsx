@@ -50,7 +50,7 @@ const App: React.FC = () => {
               <CustomerList />
             </Route>
 
-            <Route path="/page/customer/:id" exact={true}>
+            <Route path="/page/customers/:id" exact={true}>
               <CustomerEdit />
             </Route>
 
@@ -58,7 +58,7 @@ const App: React.FC = () => {
               <EmployeeList />
             </Route>
 
-            <Route path="/page/employee/:id" exact={true}>
+            <Route path="/page/employees/:id" exact={true}>
               <EmployeeEdit />
             </Route>
 
@@ -66,7 +66,7 @@ const App: React.FC = () => {
               <SupplierList />
             </Route>
 
-            <Route path="/page/supplier/:id" exact={true}>
+            <Route path="/page/suppliers/:id" exact={true}>
               <SupplierEdit />
             </Route>
           </IonRouterOutlet>

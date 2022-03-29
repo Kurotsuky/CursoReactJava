@@ -13,7 +13,7 @@ export async function searchSuppliers() {
 }
 
 export async function searchSupplierById(id: string) {
-  let url = process.env.REACT_APP_API + "supplier/" + id;
+  let url = process.env.REACT_APP_API + "suppliers/" + id;
   let response = await fetch(url, {
     method: "GET",
     headers: {
@@ -25,7 +25,7 @@ export async function searchSupplierById(id: string) {
 }
 
 export async function removeSupplier(id: string) {
-  let url = process.env.REACT_APP_API + "supplier/" + id;
+  let url = process.env.REACT_APP_API + "suppliers/" + id;
   await fetch(url, {
     method: "DELETE",
     headers: {
